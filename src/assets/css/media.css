@@ -1,0 +1,29 @@
+@media (max-width:600px) {
+    nav .first-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+   display: flex;
+   justify-content: center;
+    }
+
+    nav .first-flex .main-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .first-flex .main-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+    }
+
+}
